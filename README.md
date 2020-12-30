@@ -1,6 +1,6 @@
 ## Colorlogs
 
-A colorful logger for your console.
+A colorful logger for your Node.js console.
 
 > Installation:
 ```bash
