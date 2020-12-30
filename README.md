@@ -2,13 +2,13 @@
 
 A colorful logger for your console.
 
-Installation:
+> Installation:
 ```bash
 $ git clone https://github.com/theRealAyan/colorlogs.git
 $ cd colorlogs
 $ npm i  #install dependencies
 ```
-Usage: 
+> Usage: 
 ```js
 const logger = require('path/to/colorlogs')
 
