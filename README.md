@@ -4,7 +4,9 @@ A colorful logger for your console.
 
 Installation:
 ```bash
-git clone https://github.com/theRealAyan/colorlogs.git
+$ git clone https://github.com/theRealAyan/colorlogs.git
+$ cd colorlogs
+$ npm i  #install dependencies
 ```
 Usage: 
 ```js
