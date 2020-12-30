@@ -14,4 +14,4 @@ logger.warn('warn(): warning, yellow color.')
 logger.error('error(): error, red color.')
 ```
 
-Output: <img src="test/test.png">
+Output: <img src="test/test.PNG" />
