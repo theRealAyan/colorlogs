@@ -1,0 +1,23 @@
+{
+  "name": "@ayanthedev/colorlogs",
+  "version": "1.0.0",
+  "description": "A colorful logger for your console",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theRealAyan/colorlogs"
+  },
+  "keywords": [
+    "logger",
+    "color",
+    "time"
+  ],
+  "author": "ayanthedev",
+  "license": "MIT",
+  "dependencies": {
+    "colorette": "^1.2.1"
+  }
+}
