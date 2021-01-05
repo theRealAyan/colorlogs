@@ -1,5 +1,5 @@
 {
-  "name": "@ayanthedev/colorlogs",
+  "name": "colorlogs",
   "version": "1.0.0",
   "description": "A colorful logger for your console",
   "main": "index.js",

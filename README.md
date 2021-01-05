@@ -4,13 +4,11 @@ A colorful logger for your Node.js console.
 
 > Installation:
 ```bash
-$ git clone https://github.com/theRealAyan/colorlogs.git
-$ cd colorlogs
-$ npm i  #install dependencies
+$ npm install git+https://github.com/theRealAyan/colorlogs.git
 ```
 > Usage: 
 ```js
-const logger = require('path/to/colorlogs')
+const logger = require('colorlogs')
 
 logger.log('log(): normal console.log().')
 logger.success('success(): success, green color.')
