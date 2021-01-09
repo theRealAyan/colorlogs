@@ -8,12 +8,12 @@ $ npm install git+https://github.com/theRealAyan/colorlogs.git
 ```
 > Usage: 
 ```js
-const logger = require('colorlogs')
+const logger = require('colorlogs');
 
-logger.log('log(): normal console.log().')
-logger.success('success(): success, green color.')
-logger.warn('warn(): warning, yellow color.')
-logger.error('error(): error, red color.')
+logger.info('information');
+logger.success('success!');
+logger.warn('warning');
+logger.error('error');
 ```
 
 > Output: 
