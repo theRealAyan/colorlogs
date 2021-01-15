@@ -12,7 +12,16 @@ function getTime(): string {
     let h: number = date.getHours()
     let m: number= date.getMinutes()
     let s:number = date.getSeconds()
-    let ms: number = date.getMilliseconds()
+    let ms: string = String(date.getMilliseconds())
+
+    switch(ms.length){
+    	case 1:
+    		ms = '00' + ms;
+    		break;
+    	case 2:
+    		ms = '0' + ms;
+    		break;
+    };
 
   return `${h}:${m}:${s}:${ms}`
 

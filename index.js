@@ -7,7 +7,16 @@ function getTime() {
     var h = date.getHours();
     var m = date.getMinutes();
     var s = date.getSeconds();
-    var ms = date.getMilliseconds();
+    var ms = String(date.getMilliseconds());
+    switch (ms.length) {
+        case 1:
+            ms = '00' + ms;
+            break;
+        case 2:
+            ms = '0' + ms;
+            break;
+    }
+    ;
     return h + ":" + m + ":" + s + ":" + ms;
 }
 function info(text) {
