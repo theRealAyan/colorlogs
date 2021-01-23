@@ -1,6 +1,6 @@
 {
-  "name": "colorlogs",
-  "version": "1.2.0",
+  "name": "@ayanthedev/colorlogs",
+  "version": "1.2.1",
   "description": "A colorful logger for your console",
   "main": "build/index.js",
   "scripts": {
