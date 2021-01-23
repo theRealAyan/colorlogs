@@ -8,8 +8,8 @@ $ npm install git+https://github.com/theRealAyan/colorlogs.git
 $ yarn add git+https://github.com/theRealAyan/colorlogs.git
 ```
 > Usage: 
-```js
-const logger = require('colorlogs');
+```
+import * as logger from 'colorlogs';
 
 logger.info('information');
 logger.success('success!');

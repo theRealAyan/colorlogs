@@ -1,9 +1,11 @@
 {
   "name": "colorlogs",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A colorful logger for your console",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
+  	"prepublish": "npm run build",
+    "build": "tsc -b",
     "test": "node test/test"
   },
   "repository": {
@@ -19,5 +21,8 @@
   "license": "MIT",
   "dependencies": {
     "colorette": "^1.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
   }
 }
