@@ -18,4 +18,4 @@ logger.error('error');
 ```
 
 > Output: 
-<img src="test/test.PNG" />
+<img src="tests/test.PNG" />
