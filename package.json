@@ -1,12 +1,11 @@
 {
   "name": "@ayanthedev/colorlogs",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "A colorful logger for your console",
   "main": "build/index.js",
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "tsc -b",
-    "test": "node test/test"
+    "prepublish": "npm run build && rm -rf",
+    "build": "tsc -b"
   },
   "repository": {
     "type": "git",
@@ -22,8 +21,5 @@
   "dependencies": {
     "colorette": "^1.2.1",
     "dayjs": "^1.10.4"
-  },
-  "devDependencies": {
-    "typescript": "^4.1.3"
   }
 }
