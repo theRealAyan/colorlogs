@@ -20,4 +20,4 @@ logger.error('error');
 ```
 
 > Output: 
-<img src="tests/test.PNG" />
+<img src="https://cdn.discordapp.com/attachments/808332216983355422/812007019933728899/test.png" />
